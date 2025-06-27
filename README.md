@@ -17,8 +17,7 @@
 
 1. Open any `.php` file in VSCode.
 2. Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS) to open the command palette.
-3. Run:  
-   **`Sort PHP Use Imports by Length`**
+3. Run: **`PHP Import Statement Sorter: Sort Imports`**
 
 Your `use` statements will now be sorted in descending order of length.
 
