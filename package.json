@@ -1,0 +1,38 @@
+{
+  "name": "php-import-statement-sorter",
+  "displayName": "PHP Import Statement Sorter",
+  "version": "0.0.1",
+  "description": "Sort Import Statements (use imports) in PHP file as per length in Descending Order",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "publisher": "anand-tujare", 
+  "activationEvents": [
+    "onLanguage:php"
+  ],
+  "keywords": [
+    "php",
+    "import",
+    "sort",
+    "use"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "php-import-statement-sorter.sortImports",
+        "title": "PHP Import Statement Sorter: Sort Imports"
+      }
+    ]
+  },
+  "author": "Anand Tujare",
+  "main": "./dist/extension.js",
+  "scripts": {
+    "vscode:prepublish": "tsc -p ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "tslint": "^5.20.1",
+    "typescript": "^5.8.3",
+    "vscode": "^1.1.37"
+  }
+}

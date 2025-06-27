@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.vscode-test/
+.vscode/
+.vscodeignore
+*.js
+*.d.ts
+*.js.map
+*.tsbuildinfo
+*.log
