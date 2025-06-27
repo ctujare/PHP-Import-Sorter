@@ -71,5 +71,5 @@ npm run build
 ```
 
 # License
-This project is licensed under the MIT License - see [LICENSE](https://github.com/YOUR_USERNAME/php-import-statement-sorter/blob/main/LICENSE) for details.
+This project is licensed under the MIT License
 
